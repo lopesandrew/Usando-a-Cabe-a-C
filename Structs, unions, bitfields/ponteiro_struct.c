@@ -22,7 +22,7 @@ void happy_birthday(turtle *t){
 int main(){
 	
 	
-	turtle myrtle = {"Myrtle","Cagado",99};
+	turtle myrtle = {"Myrtle","Cagado",1002};
 	happy_birthday(&myrtle);
 	printf("%s agora tem %i anos \n",
 		myrtle.name,myrtle.age);
